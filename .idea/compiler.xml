@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springbatchcompositeitemprocessor" />
+        <module name="springbatch" />
+        <module name="springbatchjdbccursoritemreader" />
+        <module name="springbatchjdbcjdbcpagingitemreader" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springbatch" options="-parameters" />
+      <module name="springbatchcompositeitemprocessor" options="-parameters" />
+      <module name="springbatchjdbccursoritemreader" options="-parameters" />
+      <module name="springbatchjdbcjdbcpagingitemreader" options="-parameters" />
+    </option>
+  </component>
+</project>
